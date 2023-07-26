@@ -7,9 +7,9 @@ If you're interested in what the curriculum entails checkout [Codecademy's Backe
 
 
 ## Languages Covered:
-- HTML <img src="https://icons8.com/icon/20909/html-5" alt="HTML Favicon" width="16" height="16">
-- CSS <img src="https://icons8.com/icon/YjeKwnSQIBUq/css3" alt="CSS Favicon" width="16" height="16">
-- JavaScript <img src="https://icons8.com/icon/108784/javascript" alt="JavaScript Favicon" width="16" height="16">
+- HTML <img src="./images/icons8-html-48.png" alt="HTML Favicon" width="16" height="16">
+- CSS <img src="./images/icons8-css-100.png" alt="CSS Favicon" width="16" height="16">
+- JavaScript <img src="./images/icons8-javascript-48.png" alt="JavaScript Favicon" width="16" height="16">
 
 <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/20909/html-5">HTML</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
