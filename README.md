@@ -5,6 +5,8 @@ This repository is a curated collection of code challenges, mini-projects, and c
 
 If you're interested in what the curriculum entails checkout [Codecademy's Backend Engineering Career Path](https://join.codecademy.com/learn/paths/back-end-engineer-career-path-b/)
 
+The folder structure is broken down to mirror [Codecademy's Backend Engineering Career Path](https://join.codecademy.com/learn/paths/back-end-engineer-career-path-b/). This makes it easy to follow along with the course. 
+
 
 ## Languages Covered:
 - HTML <img src="./images/icons8-html-48.png" alt="HTML Favicon" width="16" height="16">
