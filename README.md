@@ -8,11 +8,15 @@ If you're interested in what the curriculum entails checkout [Codecademy's Backe
 The folder structure is broken down to mirror [Codecademy's Backend Engineering Career Path](https://join.codecademy.com/learn/paths/back-end-engineer-career-path-b/). This makes it easy to follow along with the course. 
 
 
-## Languages Covered:
+## Languages/Technologies Covered:
 - HTML <img src="./images/icons8-html-48.png" alt="HTML Favicon" width="16" height="16">
 - CSS <img src="./images/icons8-css-100.png" alt="CSS Favicon" width="16" height="16">
 - JavaScript <img src="./images/icons8-javascript-48.png" alt="JavaScript Favicon" width="16" height="16">
+- Node <img src="./images/icons8-node-js-48.png" alt="HTML Favicon" width="16" height="16">
+- Express <img src="./images/icons8-express-js-40.png" alt="HTML Favicon" width="16" height="16">
 
 <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/20909/html-5">HTML</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/YjeKwnSQIBUq/css3">CSS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/hsPbhkOH4FMe/node-js"">Node.js</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/WNoJgbzDr3i2/express-js">Express Js</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
