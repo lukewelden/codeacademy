@@ -19,9 +19,7 @@ app.get('/api/quotes/random', (req, res, next) => {
 });
 
 app.get('/api/quotes/', (req, res, next) => {
-    // TODO: Logic to detect whether a query is present
     const personQuery = req.query.person;
-
     if (personQuery) {
         // returns only quotes from person in query string
         const filteredQuotes = quotes.filter(quote => quote.person === personQuery);
@@ -47,3 +45,37 @@ app.post('/api/quotes', (req, res, next) => {
         res.status(400).send('You must supply a valid quote and person');
     }
 });
+
+app.put('/api/quotes/:id', (req, res, next) => {
+    const qId = parseInt(req.params.id);
+    const updateQuote = req.query.quote;
+    const findIndex = quotes.findIndex(quote => quote.id === qId);
+
+    if (findIndex !== -1 && updateQuote) {
+        console.log('Quote found!');
+        quotes[findIndex].quote = updateQuote;
+        res.status(200).send(`Successfully modified quote /\n New quote: ${quotes[findIndex].quote}`)
+    } else if (findIndex === -1){
+        console.log('Quote not found');
+        res.status(404).send('Quote not found!');
+    } else {
+        console.log('Blank query')
+        res.status(400).send('Must add quote query i.e. ?quote="new quote"');
+    }
+});
+
+app.delete('/api/quotes/:id', (req, res, next) => {
+    const qId = parseInt(req.params.id);
+    const findIndex = quotes.findIndex(quote => quote.id === qId);
+
+    if (findIndex !== -1 ) {
+        console.log('Quote found!');
+        const deletedQuote = quotes.splice(findIndex, 1);
+        res.status(200).send(`Successfully deleted. \n id: ${deletedQuote[0].id}  \n quote: ${deletedQuote[0].quote} \n by: ${deletedQuote[0].person}`);
+    } else {
+        console.log('Quote not found');
+        res.status(404).send('Quote not found!');
+    }
+});
+
+
