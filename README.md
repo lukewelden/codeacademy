@@ -14,6 +14,7 @@ The folder structure is broken down to mirror [Codecademy's Backend Engineering 
 - JavaScript <img src="./images/icons8-javascript-48.png" alt="JavaScript Favicon" width="16" height="16">
 - Node <img src="./images/icons8-node-js-48.png" alt="HTML Favicon" width="16" height="16">
 - Express <img src="./images/icons8-express-js-40.png" alt="HTML Favicon" width="16" height="16">
+- PostgreSQL <img src="./images/icons8-postgres-100.png" alt="HTML Favicon" width="16" height="16">
 
 <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/20909/html-5">HTML</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
